@@ -1,0 +1,557 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+body {
+
+	font-family: Open Sans, sans-serif;
+
+    font-family: sans-serif;
+
+	box-sizing:border-box;
+
+}
+
+
+
+[class*='col-']{
+
+	/*border: 1px solid gray;*/
+
+    font-family: Open Sans, sans-serif;
+
+	box-sizing:border-box;
+
+}
+
+/* ------ */
+
+
+
+.nav-tabs > li > a {
+
+	color: #8c0d0d;;
+
+}
+
+
+
+.select:hover {
+
+	border-color:#D73D3F
+
+}
+
+.bot{
+
+	line-height: 25px;
+
+	}
+
+/* --------------- ------------------------*/
+
+.color{
+	color:#FFFFFF;
+}
+.b_size{
+	font-size:55px;	
+}
+.back_color{
+	background-color:#5482B8;
+}
+
+.back_color2{
+	background-color:#13BFB7;
+}
+
+.h_color{
+
+	color:#E72629;
+
+}
+
+.h_color2{
+
+	color:#933535;
+
+}
+
+.admition{
+
+	background-color:#E0CECE;
+
+	color:#E41239;
+
+	font-size:22px;
+
+	border-radius: 25px;
+
+}
+
+
+
+.heading_border{
+
+	border-radius:20px
+
+}
+
+
+
+.jum_size{
+
+	border: 3px solid #F8CF77;
+
+
+
+}
+
+.box{
+
+	border: 5px solid #D45759;
+
+	border-radius: 20px;
+
+	background-color:#EBE0E0;
+
+	text-align: center;
+
+	margin-bottom: 7px;
+
+}
+
+.fa-arrow-right{
+
+	padding-left:30px;
+
+	padding-right: 7px;
+
+	color:#EB181C;	
+
+}
+
+
+
+.fa-arrow-right:hover{
+
+	color:#1F24F4;
+
+}
+
+
+
+.pad_left{
+
+	padding-left:30px;
+
+}
+
+.mar_bot{
+
+	margin-bottom:30px;
+
+}
+
+
+.video{
+	color:#EC0A0E;
+	font-size:25px;
+	padding-left:5px;  -webkit-transition: -webkit-transform .3s ease-in-out;
+	transition: transform .3s ease-in-out;
+
+}
+.video:hover {
+	opacity: 0.8;
+}
+
+.b_d{
+	border-radius:15px;
+}
+
+
+/* -------------- product --------------- */
+
+.nav-pills > li > a {
+	border-radius: 10px;
+	border: 1px solid #000000;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+
+.mar_bot{
+	border-color:#F3BBBC;
+	margin-bottom:25px;
+	background-color:#F4FAFC;
+	box-shadow: 3px 3px 8px #888888;
+}
+
+.zo_img{
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.zo_img:hover{
+  /*//-moz-transform: scale(1.1);*/
+  /*//-webkit-transform: scale(1.1);*/
+  /*//transform: scale(1.1);*/
+  
+  
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	background-color: #D91316;
+	z-index: -11;
+}
+
+
+.info{
+	margin-left: 20px;
+	font-size: 17px;
+}
+.info2{
+	margin-left: 112px;
+	font-size: 17px;
+}
+.mar_bot{
+	border-color:#F3BBBC;
+	margin-bottom:25px;
+	background-color:#F4FAFC;
+	box-shadow: 3px 3px 8px #888888;
+}
+
+
+/* -------------- product end -----------  */
+/* -------------- service -------------- */
+
+.gra {
+
+    background: -webkit-linear-gradient(#F74346, #ED8E90); 
+
+    background: -o-linear-gradient(#F74346, #ED8E90); 
+
+    background: -moz-linear-gradient(#F74346, #ED8E90); 
+
+    background: linear-gradient(#F74346, #ED8E90);  
+
+	border-radius: 20px;
+
+	text-align:center;
+
+	height: 27px;
+
+}
+
+
+
+.auto{
+
+	background-image:url(../images/Automation.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.mach{
+
+	background-image:url(../images/Mechanical.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.elec{
+
+	background-image:url(../images/Electrical.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.gene{
+
+	background-image:url(../images/Generator.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.power{
+
+	background-image:url(../images/power.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.cons{
+
+	background-image:url(../images/Construction.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.mech{
+
+	background-image:url(../images/Mechanical.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.secu{
+
+	background-image:url(../images/Security.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+.light{
+
+	background-image:url(../images/lighting.png);
+
+	background-repeat: no-repeat;
+
+	background-position: right bottom ;
+
+}
+
+
+
+/* -------------- Training -------------- */
+
+.apply{
+
+	border: 2px  dashed #E42C2F;
+
+	border-radius:25px;
+
+	margin-bottom:25px;
+
+	background-color:#F2D9D9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------back to top start --------------------------------------------------*/
+
+.cd-top {
+
+  display: inline-block;
+
+  height: 40px;
+
+  width: 40px;
+
+  position: fixed;
+
+  bottom: 40px;
+
+  right: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+
+  /* image replacement properties */
+
+  overflow: hidden;
+
+  text-indent: 100%;
+
+  white-space: nowrap;
+
+  background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+
+  transition: opacity .3s 0s, visibility 0s .3s;
+
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+
+  transition: opacity .3s 0s, visibility 0s 0s;
+
+}
+
+.cd-top.cd-is-visible {
+
+  /* the button becomes visible */
+
+  visibility: visible;
+
+  opacity: 1;
+
+}
+
+.cd-top.cd-fade-out {
+
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+
+  opacity: .5;
+
+}
+
+.no-touch .cd-top:hover {
+
+  background-color: #e86256;
+
+  opacity: 1;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .cd-top {
+
+    right: 30px;
+
+    bottom: 30px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .cd-top {
+
+    height: 40px;
+
+    width: 40px;
+
+    right: 30px;
+
+    bottom: 30px;
+
+  }
+
+}
+
+/* ------------------ back to top  end --------------------------------------------------*/
+
+/* ------------------------------------------------------------------------- media quary start ------------------------------- */
+
+@media (min-width: 768px){
+	
+.main-navigation .navbar-default .navbar-nav > li > a {
+	padding: 20px 10px;
+}
+
+.sli_fix{
+	padding-top: 100px;
+}
+.sis_pad{
+	padding-top: 110px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+.menu_pad{
+
+	padding-top:4px;
+
+  }
+  .sli_fix{
+	padding-top: 151px;
+}
+.sis_pad{
+	padding-top: 100px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.menu_pad{
+
+	padding-top:105px;
+
+  }
+  
+  .main-navigation .navbar-default .navbar-nav > li > a {
+    padding: 20px 4px;
+}
+.sli_fix{
+	padding-top: 160px;
+}
+.sis_pad{
+	padding-top: 110px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.menu_pad{
+
+	padding-top:60px;
+
+  }
+  
+ .main-navigation .navbar-default .navbar-nav > li > a {
+    padding: 20px 3px;
+	font-size: 17px;
+}
+.sli_fix{
+	padding-top: 100px;
+}
+
+.sis_pad{
+	padding-top: 110px;
+}
+
+
+
+}
+
+
+
+/* ------------------------------------------------------------------------- media quary end ------------------------------- */
